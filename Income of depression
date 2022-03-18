@@ -7,3 +7,8 @@ sb.set() # set the default Seaborn style for graphics
 
 Incomedata = pd.read_csv('income.csv')
 income = Incomedata['fnlwgt']
+education = Incomedata['education']
+maritalStatus = Incomedata['marital-status']
+occupation = Incomedata['occupation']
+race = Incomedata['race']
+gender = Incomedata['gender']
