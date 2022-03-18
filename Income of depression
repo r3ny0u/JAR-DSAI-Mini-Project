@@ -4,4 +4,6 @@ import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as plt # we only need pyplot
 sb.set() # set the default Seaborn style for graphics
+
 Incomedata = pd.read_csv('income.csv')
+income = Incomedata['fnlwgt']
