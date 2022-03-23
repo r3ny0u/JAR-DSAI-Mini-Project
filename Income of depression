@@ -28,3 +28,9 @@ sb.catplot(y = "race", data = Incomedata, kind = "count")
 
 print(gender.value_counts())
 sb.catplot(y = "gender", data = Incomedata, kind = "count")
+
+f, axes = plt.subplots(4,1,figsize=(20,40))
+sb.boxplot(x='education', y='fnlwgt', data = Incomedata, ax = axes[0])
+sb.boxplot(x='occupation', y='fnlwgt', data = Incomedata, ax = axes[1])
+sb.boxplot(x='race', y='fnlwgt', data = Incomedata, ax = axes[2])
+sb.boxplot(x='gender', y='fnlwgt', data = Incomedata, ax = axes[3])
