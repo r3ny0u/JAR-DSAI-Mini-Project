@@ -13,12 +13,17 @@ Wanting to test out tree classification model, we split the data into 2, '0' for
 
 ## 4. [Tree Classifications](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/tree.ipynb)
 Using different models of classification to find out which is the best model to predict income. 
-### [Decision Tree Classification]()
-### [Random Forest Classification]()
-### [XGBoost]()
+#### [Decision Tree Classification]()
+#### [Random Forest Classification]()
+#### [XGBoost]()
 
 ## 5. [Cross Validation](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/cross%20validation.ipynb)
 To find the optimal tuning parameters for a machine learning problem. As we may encounter overfitting or underfitting which will reasult in higher levels of error when applied to our test. 
 
 ## Conclusion
 Models are very accurate in predicting income but it might not be very accurate due to the small sample size of 1000. Accuracies for training models are a little too high which may symbolise some biasness. Could gather more similar datasets from other sources and combininig them together so as to better predict how we are able to get higher income.
+
+## Contributors
+- Aden Ong Yew @AdenOng
+- Chang Chieh Hsiang @jason-701
+- Chang Ren You @r3ny0u
