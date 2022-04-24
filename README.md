@@ -11,7 +11,7 @@ Extracing and visualise the dataset to gain insights. CLeaning the data to fit i
 Linear model with only numerical data has a explained variance of 0.58 is not significant and shows that it still can be improved. While linear model with bother numerical and categorical data has an explained variance of 0.85 which is a lot better than the linear regression without adding categorical data.
 
 ## 3. [Resample]()
-Wanting to test out tree classification model, we split the data into 2, '0' for below 75th percentile of income and '1' for above 75th percentile of income. Resulting in lesser '1' than '0'. Resample to prevent any biased data training. As it will affect the accuracy of the confusion matrix making it skewed towards a side
+Wanting to test out tree classification model, we split the data into 2, '0' for below 75th percentile of income and '1' for above 75th percentile of income. Resulting in lesser '1' than '0'. Resample to prevent any biased data training. As it will affect the accuracy of the confusion matrix making it skewed towards a side.
 
 ## 4. [Tree Classifications](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/tree.ipynb)
 Using different models of classification to find out which is the best model to predict income.
