@@ -14,7 +14,7 @@ Linear model with only numerical data has a explained variance of 0.58 is not si
 Wanting to test out tree classification model, we split the data into 2, '0' for below 75th percentile of income and '1' for above 75th percentile of income. Resulting in lesser '1' than '0'. Resample to prevent any biased data training.
 
 ## 4. [Tree Classifications](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/tree.ipynb)
-Using different models of classification to find out which is the best model to predict income. 
+Using different models of classification to find out which is the best model to predict income.
 #### [Decision Tree Classification]()
 <img src="https://user-images.githubusercontent.com/101868598/164954420-342584a8-a20d-4d90-8795-9a2b8498ed30.png" width="800" height="400"> 
 
@@ -24,6 +24,7 @@ Using different models of classification to find out which is the best model to 
 #### [XGBoost]()
 <img src="https://user-images.githubusercontent.com/101868598/164954157-0bf706b2-b89a-49e1-a017-98aec60f2fe3.png" width="400" height="400"> 
 
+We found that XGBoost's train dataset has the highest accuracy of 1.0 but Random Forest has the highest accuracy of 0.95 for test dataset. However, the differences  in accuracy between these 2 models is not very significant. Hence, using either one of them is able to accurately predict how we can get high income.
 
 ## 5. [Cross Validation](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/cross%20validation.ipynb)
 To find the optimal tuning parameters for a machine learning problem. As we may encounter overfitting or underfitting which will result in higher levels of error when applied to our test. 
