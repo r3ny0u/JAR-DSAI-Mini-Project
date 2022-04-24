@@ -27,3 +27,6 @@ Models are very accurate in predicting income but it might not be very accurate 
 - Aden Ong Yew @AdenOng
 - Chang Chieh Hsiang @jason-701
 - Chang Ren You @r3ny0u
+
+## References
+- https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b
