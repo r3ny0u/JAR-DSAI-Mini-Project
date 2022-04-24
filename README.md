@@ -42,4 +42,5 @@ Models are very accurate in predicting income but it might not be very accurate 
 
 ## References
 - https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap
+- https://machinelearninghd.com/xgboost-in-python-guide-for-gradient-boosting/
 - https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b
