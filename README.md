@@ -26,7 +26,7 @@ However, we realized that Decision Tree Classifier has can be further improved, 
 #### [XGBoost]()
 <img src="https://user-images.githubusercontent.com/101868598/164954157-0bf706b2-b89a-49e1-a017-98aec60f2fe3.png" width="400" height="400"> 
 However we wanted to test other models to explore if we can further improve the accuracy. Thus we used XGBoost to further improve upon random forest. It uses machine learning algorithms to for gradient boosting. With XGBoost it does parallel tree boosting which generally results in a higher accuracy than random forest.
-
+<br/><br/>
 We found that XGBoost's train dataset has the highest accuracy of 1.0 but Random Forest has the highest accuracy of 0.95 for test dataset. However, the differences  in accuracy between these 2 models is not very significant. Hence, using either one of them is able to accurately predict how we can get high income.
 
 ## 5. [Cross Validation](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/cross%20validation.ipynb)
