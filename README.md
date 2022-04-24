@@ -2,7 +2,7 @@
 ## About
 This is our SC1015 mini project which is on income taken from [Glassdoor- Analyze Gender Pay Gap](https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap), to predict income based on the various varibales. As a way to get rich.
 
-## 1. [Data Extraction & explatory](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/data%20extraction%20%26%20explatory%20analysis.ipynb)
+## 1. [Data Extraction & Explatory](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/data%20extraction%20%26%20explatory%20analysis.ipynb)
 Extracing and visualise the dataset to gain insights. CLeaning the data to fit into our problem statement. Includes univariate analysis and mutlivariate analysis.
 
 ## 2. [Linear Regression](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/linear%20regression.ipynb)
