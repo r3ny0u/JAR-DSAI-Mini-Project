@@ -1,6 +1,6 @@
 # How to get richhh
 ## About
-This is our SC1015 mini project which is on income taken from [Glassdoor- Analyze Gender Pay Gap](https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap), to predict income based on the various varibales. As a way to get rich.
+This is our SC1015 mini project which is on income taken from [Glassdoor- Analyze Gender Pay Gap](https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap), to predict income based on the various varibales. Since wealth is a form of measurement of success, our motivation is how to get rich. Hence we want to find out how to predict how much income one can receive in the future.
 
 ## 1. [Data Extraction & Explatory](https://github.com/r3ny0u/GetMeOut/blob/main/MegaDepression/data%20extraction%20%26%20explatory%20analysis.ipynb)
 Extracing and visualise the dataset to gain insights. CLeaning the data to fit into our problem statement. Includes univariate analysis and mutlivariate analysis.
@@ -17,12 +17,15 @@ Wanting to test out tree classification model, we split the data into 2, '0' for
 Using different models of classification to find out which is the best model to predict income.
 #### [Decision Tree Classification]()
 <img src="https://user-images.githubusercontent.com/101868598/164954420-342584a8-a20d-4d90-8795-9a2b8498ed30.png" width="800" height="400"> 
+We used trained test split, with a test size of 0.2. Afterwards, we trained the model using a max depth of 5, and plotted its confusion matrix. We evaluated the model's Accuracy, TPR, TNR, FPR and FNR.
 
 #### [Random Forest Classification]()
 <img src="https://user-images.githubusercontent.com/101868598/164954150-0d9e682a-8d4f-4ea3-9006-76436a5688d5.png" width="400" height="400"> 
+However, we realized that Decision Tree Classifier has can be further improved, therefore we applied Random Forest Classifier which ensembles the majority votes of a multitude of Decision Trees to improve model performance and robustness.
 
 #### [XGBoost]()
 <img src="https://user-images.githubusercontent.com/101868598/164954157-0bf706b2-b89a-49e1-a017-98aec60f2fe3.png" width="400" height="400"> 
+However we wanted to test other models to explore if we can further improve the accuracy. Thus we used XGBoost to further improve upon random forest. It uses machine learning algorithms to for gradient boosting. With XGBoost it does parallel tree boosting which generally results in a higher accuracy than random forest.
 
 We found that XGBoost's train dataset has the highest accuracy of 1.0 but Random Forest has the highest accuracy of 0.95 for test dataset. However, the differences  in accuracy between these 2 models is not very significant. Hence, using either one of them is able to accurately predict how we can get high income.
 
